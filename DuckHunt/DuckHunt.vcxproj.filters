@@ -15,42 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\UI\UIElement\AnimatedImageView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\UIElement\ButtonView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\UIElement\ImageView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\UIElement\TextView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\UIElement\UIView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\SplashScreen\SplashScreenUIController.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\GameplayUI\GameplayUIController.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Event.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\GameService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\GraphicService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ServiceLocator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Global\MultimediaFile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Element\DuckController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -103,6 +67,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Global\MediaFiles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -193,6 +160,9 @@
     <ClInclude Include="Header\UI\UIService.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Header\Global\MediaFiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Media Include="Assets\Sounds\click.wav">
@@ -205,19 +175,19 @@
     <Media Include="Assets\Sounds\waveNotClear.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\textures\1.png">
+    <Image Include="Assets\textures\MenuImage.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="Assets\textures\2.png">
+    <Image Include="Assets\textures\PauseMenu.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="Assets\textures\3.png">
+    <Image Include="Assets\textures\GameOver.png">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="Assets\textures\3DS - WarioWare Gold - Duck Hunt.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="Assets\textures\4.png">
+    <Image Include="Assets\textures\Instruction.png">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="Assets\textures\background.png">

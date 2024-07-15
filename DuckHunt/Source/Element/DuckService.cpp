@@ -67,7 +67,7 @@ namespace Element
     }
 
     void DuckService::processDuckSpawn() {
-        if (duck_list.size() <2) { // Limit to 2 ducks
+        if (duck_list.size() < 2) { // Limit to 2 ducks
             spawnDuck();
         }
     }
@@ -80,26 +80,26 @@ namespace Element
     }
 
     DuckController* DuckService::spawnDuck() {
-        
-        DuckType type= getDuckType();
+
+        DuckType type = getDuckType();
         sf::String duck_texture_path;
-    	float duckSpeed;
+        float duckSpeed;
         if (type == DuckType::BLUE)
         {
-	        duck_texture_path = duck1_texture_path;
-        	duckSpeed = blueDuckSpeed;
+            duck_texture_path = duck1_texture_path;
+            duckSpeed = blueDuckSpeed;
         }
         else
         {
-	        duck_texture_path = duck2_texture_path;
+            duck_texture_path = duck2_texture_path;
             duckSpeed = orangeDuckSpeed;
         }
         if (!duckTexture.loadFromFile(duck_texture_path)) {
             printf("Error loading duck texture");
         }
 
-        
-        DuckController* newDuck = new DuckController(type,duckTexture,duckSpeed);
+
+        DuckController* newDuck = new DuckController(type, duckTexture, duckSpeed);
         newDuck->initialize();
         newDuck->startRandomMovement();
         duck_list.push_back(newDuck);

@@ -2,9 +2,11 @@
 #include <SFML/Graphics.hpp>
 
 #include "../BaseUIController.h"
+#include"../../Header/Global/MediaFiles.h"
 
 namespace UI
 {
+  
 	namespace GameOverMenu
 	{
         class GameOverMenuUIController : public BaseUIController
@@ -14,10 +16,10 @@ namespace UI
             sf::Text highScoreText;
             sf::Text scoreText;
 
-        	const sf::String background_texture_path = "assets/textures/3.png";
+        	
         	void processButtonInteractions() override;
         protected:
-        	const sf::String& getBackgroundTexturePath() const override { return background_texture_path; }
+        	const sf::String& getBackgroundTexturePath() const override { return Global::Config::GameOver_path; }
 
         public:
             GameOverMenuUIController();
