@@ -1,2 +1,24 @@
 ﻿  Main.cpp
+  DuckController.cpp
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\Element\DuckController.cpp(110,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\Element\DuckController.cpp(110,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  DuckService.cpp
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\Element\DuckService.cpp(90,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\Element\DuckService.cpp(95,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  EventService.cpp
+  GamePlayService.cpp
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\GamePlay\GamePlayService.cpp(50,48): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\GamePlay\GamePlayService.cpp(50,48): warning C4244:         with
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\GamePlay\GamePlayService.cpp(50,48): warning C4244:         [
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\GamePlay\GamePlayService.cpp(50,48): warning C4244:             T=unsigned int
+D:\OutscalUnityProjects\DuckHunt\DuckHunt\Source\GamePlay\GamePlayService.cpp(50,48): warning C4244:         ]
+  ServiceLocator.cpp
+  GameService.cpp
+  BaseUIController.cpp
+  GameOverMenuUIController.cpp
+  InstructionUIController.cpp
+  MainMenuUIController.cpp
+  PauseMenuUIController.cpp
+  UIService.cpp
+  Generating Code...
   DuckHunt.vcxproj -> D:\OutscalUnityProjects\DuckHunt\x64\Debug\DuckHunt.exe
