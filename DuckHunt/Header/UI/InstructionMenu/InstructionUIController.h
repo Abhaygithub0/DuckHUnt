@@ -1,5 +1,6 @@
 #pragma once
 #include "../BaseUIController.h"
+#include"../../Header/Global/MediaFiles.h"
 
 namespace UI
 {
@@ -8,10 +9,10 @@ namespace UI
         class InstructionUIController : public BaseUIController
         {
         private:
-            const sf::String background_texture_path = "assets/textures/4.png";
+           
 			void processButtonInteractions() override;
         protected:
-            const sf::String& getBackgroundTexturePath() const override { return background_texture_path; }
+            const sf::String& getBackgroundTexturePath() const override { return Global::Config::instruction_path; }
 
         public:
             InstructionUIController();

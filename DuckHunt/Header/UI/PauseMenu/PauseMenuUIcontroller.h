@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "../BaseUIController.h"
+#include"../../Header/Global/MediaFiles.h"
 
 namespace UI
 {
@@ -9,14 +10,13 @@ namespace UI
         class PauseMenuUIController : public UI::BaseUIController
         {
         private:
-            const sf::String background_texture_path = "assets/textures/2.png";
-
+           
             sf::Font font;
             sf::Text highScoreText;
 
             void processButtonInteractions() override;
         protected:
-            const sf::String& getBackgroundTexturePath() const override { return background_texture_path; }
+            const sf::String& getBackgroundTexturePath() const override { return Global::Config::Pausemenu_image_path; }
 
         public:
             PauseMenuUIController();

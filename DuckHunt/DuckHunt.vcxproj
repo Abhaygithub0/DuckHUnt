@@ -23,21 +23,16 @@
     <ClCompile Include="Source\Element\DuckController.cpp" />
     <ClCompile Include="Source\Element\DuckService.cpp" />
     <ClCompile Include="Source\Element\ScoreService.cpp" />
-    
     <ClCompile Include="Source\Event\EventService.cpp" />
     <ClCompile Include="Source\GamePlay\GamePlayService.cpp" />
-   
-  
+    <ClCompile Include="Source\Global\MediaFiles.cpp" />
     <ClCompile Include="Source\Global\ServiceLocator.cpp" />
-   
     <ClCompile Include="Source\Graphics\GraphicService.cpp" />
     <ClCompile Include="Source\Main\GameService.cpp" />
-   
     <ClCompile Include="Source\Sound\SoundService.cpp" />
     <ClCompile Include="Source\Time\TimeService.cpp" />
     <ClCompile Include="Source\UI\BaseUIController.cpp" />
     <ClCompile Include="Source\UI\GameOver\GameOverMenuUIController.cpp" />
-   
     <ClCompile Include="Source\UI\GamePlay\GamePlayUIController.cpp" />
     <ClCompile Include="Source\UI\InstructionMenu\InstructionUIController.cpp" />
     <ClCompile Include="Source\UI\MainMenu\MainMenuUIController.cpp" />
@@ -61,6 +56,7 @@
     <ClInclude Include="Header\Event\EventService.h" />
     <ClInclude Include="Header\GamePlay\GamePlayService.h" />
     <ClInclude Include="Header\GameService.h" />
+    <ClInclude Include="Header\Global\MediaFiles.h" />
     <ClInclude Include="Header\Global\MultimediaFile.h" />
     <ClInclude Include="Header\Global\ServiceLocator.h" />
     <ClInclude Include="Header\GraphicService.h" />
@@ -89,11 +85,11 @@
     <Media Include="Assets\Sounds\waveNotClear.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\textures\1.png" />
-    <Image Include="Assets\textures\2.png" />
-    <Image Include="Assets\textures\3.png" />
+    <Image Include="Assets\textures\MenuImage.png" />
+    <Image Include="Assets\textures\PauseMenu.png" />
+    <Image Include="Assets\textures\GameOver.png" />
     <Image Include="Assets\textures\3DS - WarioWare Gold - Duck Hunt.png" />
-    <Image Include="Assets\textures\4.png" />
+    <Image Include="Assets\textures\Instruction.png" />
     <Image Include="Assets\textures\background-2.png" />
     <Image Include="Assets\textures\background.png" />
     <Image Include="Assets\textures\bg.png" />
