@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include "../Time/TimeService.h"
-
+#include "../../header/Global/MediaFiles.h"
 #include "../../Header/Element/DuckController.h"
 
 
@@ -19,8 +19,8 @@ namespace Element {
         std::vector<DuckController*> duck_list;
         float spawn_timer=0;
         sf::Texture duckTexture;
-        sf::String duck1_texture_path="assets/textures/ducks.png";
-        sf::String duck2_texture_path = "assets/textures/ducks_hard.png";
+        sf::String duck1_texture_path= Global::Config::DuckFirst_path;
+        sf::String duck2_texture_path = Global::Config::DuckSecond_path; 
         int blueDuckSpeed = 300;
         int orangeDuckSpeed = 500;
 

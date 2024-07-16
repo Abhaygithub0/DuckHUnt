@@ -11,8 +11,8 @@ namespace Global
 		static const sf::String instruction_path;
 		static const sf::String Mainmenu_image_path;
 		static const sf::String Pausemenu_image_path;
-		//static const sf::String DuckFirst_path;
-		//static const sf::String DuckSecond_path;
+		static const sf::String DuckFirst_path;
+		static const sf::String DuckSecond_path;
 
 		
 	
